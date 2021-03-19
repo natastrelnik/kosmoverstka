@@ -1,0 +1,239 @@
+* {
+	outline: 1px solid orange;
+}
+body {
+	margin: 0;
+	padding: 0;
+
+	font-size: 14px;
+	line-height: 20px;
+	font-family: Verdana, sans-serif;
+	color: #000000;
+
+	background-color: #ffffff;
+}
+
+.site-header {
+	color: #ffffff;
+	background-color: #222222; 
+}
+
+.container {
+	width: 1040px;
+	margin: 0 auto;
+	padding: 0;
+}
+.main-nav {
+	display: flex;
+	margin-bottom: 95px;
+	margin-right: 80px;
+}
+
+.site-header .container {
+	min-height: 400px;
+	padding-top: 50px;
+	padding-bottom: 180px;
+
+	background-image: url("../img/moon-rocket.png"); 
+	background-repeat: no-repeat;
+	background-position: 520px 130px; 
+}
+
+.site-menu {
+	display: flex;
+	flex-wrap: wrap;
+       
+	width: 660px;
+	margin: 0;
+    
+	margin-top: 25px;
+	padding:  0;
+
+	list-style: none;
+}
+
+.site-menu a {
+	display: block;
+	margin-right: 40px;
+	
+}
+
+.contacts-menu {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 180px;
+	margin: 0;
+	margin-top: 25px;
+	margin-right: 80px;
+	margin-left: auto;
+	padding: 0;
+	list-style: none;
+}
+
+
+.contacts-menu li {
+	
+	margin-left: 20px;
+	
+}
+.logo {
+	width: 60px;
+	height: 60px;
+	margin-right: 60px;
+}
+
+
+
+.about-us {
+    width: 300px;
+    padding-left: 120px;
+ }
+
+.about-us h1 {
+    
+    font-size: 45px;
+    line-height: 50px;
+    font-family: "Courier New";
+    color: white;
+    }
+
+.btn {
+    display: block;
+    width: 195px;
+    color: #222222;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 50px;
+    padding: 0 40px;
+    
+    border: none;
+    border-radius: 50px;
+    background-color: #feca30;
+    
+    background-image: url(../img/right-arrow-dark.png);
+     background-repeat: no-repeat; 
+     background-position: 220px 17px;
+    
+}
+
+
+.site-footer {
+    
+    padding-top: 50px;
+    padding-bottom: 80px;
+    color: #ffffff;
+    background-color: #131313;
+}
+
+.left-column {
+    display: flex;
+    width: 180px;
+    margin-right: 100px;
+    
+}
+
+.right-column {
+        width: 720px;
+    padding-top: 35px;
+    
+}
+
+.futer-menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+.futer-menu li {
+   width: 180px;
+    margin-right: 60px;
+      }
+.futer-columns-container {
+    display: flex;
+}
+.futer-submenu {
+    display: block;
+    margin-bottom:0;
+    padding: 0;
+    list-style: none;
+}
+ .futer-submenu li {
+    display: block;
+    width: 180px;
+    margin-right: 60px;
+}   
+.futer-submenu-title {
+    display: block;
+    margin-bottom: 30px;
+   
+  }
+
+.logo-container {
+   display:flex;
+   align-items: center;
+    
+}
+
+
+
+
+.site-main {
+   
+    color: #ffffff;
+    background-color: #131313;
+  
+}
+
+.site-carta {
+    
+   display: flex;
+   width: 1040px;
+   margin: 0 auto;
+   margin-top: 0;
+   padding:  0;
+ 
+  }
+
+
+.left-column-1 {
+    
+    width: 500px;
+  
+    margin-right: 100px;
+  }
+
+.right-column-1 {
+    
+    width: 520px;
+    
+    
+}
+
+.recomend {
+    margin-top: 0;
+    margin-bottom: 10px;  
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: "Courier New";
+    color: #ffcc00;
+}
+.marker {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    
+    
+}
+.marker-list {
+              margin: 0;
+              padding: 0;
+              padding-left: 30 px;
+              list-style-type: none;
+          }   
+      
+  .marker-list li::before { color: #ffcc00; /* Цвет маркера */
+    content: "\2022"; /* Сам маркер. \2022 - юникод точки */
+    padding-right: 20px; /* Расстояние от маркера до текста */ 
+    font-size:20px;    
+     }
